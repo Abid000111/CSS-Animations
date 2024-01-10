@@ -1,0 +1,48 @@
+.heading{
+    text-align: center;
+}
+
+main{
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(48, 179, 48, 0);
+    height: 40vh;
+    width: 80vh;
+    /* visibility: hidden; */
+}
+
+.box{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: red;
+    height: 40%;
+    width: 20%;
+    animation: abidAnimation 100s cubic-bezier(0.68, -0.55, 0.27, 1.55) 1s infinite alternate paused;
+}
+
+.box:hover{
+    cursor: pointer;
+    background-color: burlywood;
+}
+
+@keyframes abidAnimation {
+    from{
+        background-color: red;
+    }to{
+        background-color: blue;
+    }
+    0%{
+        transform: rotate(3600000deg) translateX(100%);
+    }
+}
