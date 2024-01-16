@@ -1,67 +1,66 @@
-.heading{
-    text-align: center;
+.heading {
+	text-align: center;
 }
 
-main{
-    height: 75vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+main {
+	height: 75vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
-.container{
-    background-color: rgb(48, 179, 48);
-    height: 40vh;
-    width: 80vh;
+.container {
+	background-color: rgb(48, 179, 48);
+	height: 40vh;
+	width: 80vh;
 }
 
-.box{
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* border-radius: 50%; */
-    background-color: red;
-    height: 20%;
-    width: 20%;
-    /* animation-name: abidAnimation;
+.box {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* border-radius: 50%; */
+	background-color: red;
+	height: 20%;
+	width: 20%;
+	/* animation-name: abidAnimation;
     animation-duration: 2s;
     animation-iteration-count: infinite;
     animation-timing-function: cubic-bezier(0.68, -0.55, 0.27, 1.55);
     animation-delay: 1s;
     animation-direction: alternate;
     animation-play-state: paused; */
-    animation: abidAnimation 3s cubic-bezier(0.68, -0.55, 0.27, 1.55) 1s infinite alternate paused;
-                /* abidAnimation2 3s ease-in-out; */
+	animation: abidAnimation 3s cubic-bezier(0.68, -0.55, 0.27, 1.55) 1s infinite
+		alternate paused;
+	/* abidAnimation2 3s ease-in-out; */
 }
 
-.box:hover{
-    cursor: pointer;
-    background-color: burlywood;
+.box:hover {
+	cursor: pointer;
+	background-color: burlywood;
 }
 
 @keyframes abidAnimation {
-    from{
-        background-color: red;
-    }to{
-        background-color: blue;
-    }
-    0%{
-        transform: rotate(90deg) translateY(0%);
-    }
-    33%{
-        transform: rotate(180deg) translateX(-100%);
-    }
-    66%{
-        transform: rotate(270deg) translateY(400%);
-    }
-    100%{
-        transform: rotate(360deg) translateX(400%);
-    }
+	from {
+		background-color: red;
+	}
+	to {
+		background-color: blue;
+	}
+	0% {
+		transform: rotate(90deg) translateY(0%);
+	}
+	33% {
+		transform: rotate(180deg) translateX(-100%);
+	}
+	66% {
+		transform: rotate(270deg) translateY(400%);
+	}
+	100% {
+		transform: rotate(360deg) translateX(400%);
+	}
 }
-
-
-
 
 /* @keyframes abidAnimation {
     from{
